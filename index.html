@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SPAI — Secure Personal AI</title>
+  <meta name="description" content="SPAI is a local-first private AI assistant designed to run on your own hardware, adapt to your workflow, and use permissioned plugins without cloud lock-in." />
+  <meta name="author" content="Callum Riding-Smith" />
+  <meta property="og:title" content="SPAI — Secure Personal AI" />
+  <meta property="og:description" content="A private local AI assistant that learns your workflow, routes tasks across local models, and keeps you in control." />
+  <meta property="og:image" content="assets/spai-logo.png" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#00eaff" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/favicon-180.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SPAI home">
+      <img src="assets/favicon-64.png" alt="SPAI logo mark" />
+      <span>SPAI</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#why">Why SPAI</a>
+      <a href="#features">Features</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Local-first • Private • User-owned</p>
+        <h1>Your private personal AI assistant, running on your own hardware.</h1>
+        <p class="hero-text">
+          SPAI — Secure Personal AI — is being built for people and small businesses who want an AI assistant that can learn, adapt, and help with real work without sending their files, memory, or workflows to cloud platforms.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Register interest</a>
+          <a class="button secondary" href="#features">See the vision</a>
+        </div>
+        <div class="signal-row" aria-label="Project highlights">
+          <span>Local models</span>
+          <span>Permissioned plugins</span>
+          <span>User-controlled memory</span>
+        </div>
+      </div>
+      <div class="hero-logo-card">
+        <img src="assets/spai-logo.png" alt="SPAI Secure Personal AI logo" />
+      </div>
+    </section>
+
+    <section id="why" class="section-shell split-section">
+      <div>
+        <p class="eyebrow">The problem</p>
+        <h2>Powerful AI should not require giving up control.</h2>
+      </div>
+      <div class="panel">
+        <p>
+          Cloud AI tools are useful, but many users and small businesses are uncomfortable sending private documents, workflows, conversations, and long-term memory to external platforms. Local AI is improving quickly, but today it is still too technical for most people to set up and use properly.
+        </p>
+        <p>
+          SPAI is designed to bridge that gap: a personal AI layer that makes local models, memory, tools, and automation feel like one assistant rather than a pile of technical components.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">What SPAI is designed to do</p>
+        <h2>A private assistant that can grow with your hardware and workflow.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="icon">01</div>
+          <h3>Run locally</h3>
+          <p>Use local AI models on supported consumer hardware so sensitive data can stay on the user’s own machine.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">02</div>
+          <h3>Route intelligently</h3>
+          <p>Send simple tasks to fast models and heavier work to larger local models or additional compute nodes.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">03</div>
+          <h3>Remember with consent</h3>
+          <p>Save preferences, projects, and important context under user control instead of relying on hidden cloud memory.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">04</div>
+          <h3>Use permissioned plugins</h3>
+          <p>Add capabilities such as file reading, app opening, document work, voice, and learned workflows with clear permissions.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">05</div>
+          <h3>Support small businesses</h3>
+          <p>Offer a lower-cost route for small teams that need private AI assistance without expensive enterprise AI contracts.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">06</div>
+          <h3>Stay user-owned</h3>
+          <p>The long-term goal is simple: your assistant, your hardware, your memory, your tools, your control.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell audience-section">
+      <div class="section-heading">
+        <p class="eyebrow">Who it is for</p>
+        <h2>Built for people who want useful AI without becoming AI engineers.</h2>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <h3>Individuals & professionals</h3>
+          <p>For privacy-conscious users, freelancers, creators, students, and professionals who want a personal AI assistant that adapts to them without needing to build a local AI stack by hand.</p>
+        </div>
+        <div class="audience-card">
+          <h3>Small & medium businesses</h3>
+          <p>For teams that want private AI help with documents, admin, research, customer support, and internal workflows without recurring enterprise AI costs or cloud data lock-in.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section-shell roadmap-section">
+      <div class="section-heading">
+        <p class="eyebrow">Current build direction</p>
+        <h2>From alpha assistant to local AI platform.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>Now</span>
+          <h3>Working alpha and architecture polish</h3>
+          <p>Local model orchestration, streaming, backend experiments, routing, memory design, and GUI improvements.</p>
+        </div>
+        <div class="timeline-item">
+          <span>Next</span>
+          <h3>Modular plugin and memory foundation</h3>
+          <p>Permissioned add-ons, user-controlled memory modes, model profiles, and safer local automation workflows.</p>
+        </div>
+        <div class="timeline-item">
+          <span>Demo target</span>
+          <h3>Public demonstration and early access path</h3>
+          <p>A focused demo showing local model switching, private memory, plugins, and practical assistant workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell founder-section">
+      <div class="founder-card">
+        <p class="eyebrow">Founder</p>
+        <h2>Built by Callum Riding-Smith</h2>
+        <p>
+          SPAI is being developed as a privacy-first local AI assistant project under the broader vision of making powerful personal AI accessible to normal users and small businesses.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <div>
+        <p class="eyebrow">Follow the build</p>
+        <h2>Interested in SPAI?</h2>
+        <p>
+          This early site is ready for GitHub Pages. Add your preferred contact link, waitlist form, demo video, or email address below when you are ready.
+        </p>
+      </div>
+      <div class="contact-card">
+        <a class="button primary full" href="mailto:callumridingsmith@gmail.com">Email Callum</a>
+        <p class="small-note">For early access, partnership, or funding conversations.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> SPAI — Secure Personal AI. Built by Callum Riding-Smith.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
