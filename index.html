@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>SPAI — Secure Personal AI</title>
+  <link rel="icon" type="image/png" href="assets/spai-logo.png" />
   <meta
     name="description"
     content="SPAI is a local-first personal AI platform built around privacy, ownership, no ads, modular tools, and user-controlled memory."
@@ -81,6 +82,29 @@
       font-weight: 900;
       letter-spacing: -0.04em;
       font-size: 1.15rem;
+    }
+
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
+      box-shadow: 0 0 28px rgba(39, 224, 179, 0.32);
+      border: 1px solid rgba(39, 224, 179, 0.22);
+    }
+
+    .logo-showcase .console-body {
+      padding-top: 18px;
+    }
+
+    .hero-logo {
+      display: block;
+      width: min(100%, 420px);
+      margin: 0 auto 18px;
+      border-radius: 24px;
+      filter: drop-shadow(0 0 28px rgba(39, 224, 179, 0.25));
     }
 
     .brand-mark {
@@ -703,7 +727,7 @@
   <header>
     <div class="wrap nav">
       <a class="brand" href="#top" aria-label="SPAI home">
-        <span class="brand-mark">S</span>
+        <img class="brand-logo" src="assets/spai-logo.png" alt="SPAI logo" />
         <span>SPAI</span>
       </a>
 
@@ -749,7 +773,7 @@
           </p>
         </div>
 
-        <div class="console-card" aria-label="SPAI product preview">
+        <div class="console-card logo-showcase" aria-label="SPAI product preview">
           <div class="console-top">
             <span class="circle"></span>
             <span class="circle"></span>
@@ -757,6 +781,8 @@
           </div>
 
           <div class="console-body">
+            <img class="hero-logo" src="assets/spai-logo.png" alt="SPAI Secure Personal AI logo" />
+
             <div class="message">
               <strong>You:</strong> Open Steam, find my project notes, and remind me what we changed last time.
             </div>
